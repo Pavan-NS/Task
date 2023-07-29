@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 0 60px 0 60px;
+  height: 80px;
+}
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+}
+.navbar-toogle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.navbar-links {
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  color: #fff;
+  background-color: blue;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 100%;
+  }
+  .navbar-links.show {
+    display: flex;
+  }
+  .navbar-toogle {
+    display: block;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img {
+  height: 180px;
+  width: 150px;
+}
+li {
+  list-style-type: none;
+}
+.mins {
+  display: flex;
+  align-items: center;
+}
+.w {
+  width: 50%;
+}
+.movie-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: lavenderblush;
+  border-radius: 5px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: 15px;
+  padding: 15px;
+}
+.vote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+}
+.poster {
+  width: 20%;
+}
+.vote {
+  font-weight: bold;
+  padding-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  left: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img {
+  height: 250px;
+  width: 160px;
+}
+.detail-company {
+  background-color: #333;
 }
