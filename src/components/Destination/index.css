@@ -1,0 +1,68 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 50px;
+}
+.card-1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 768px) {
+  .card-1 {
+    min-width: 100px;
+  }
+  .harvard {
+    font-size: 10px;
+  }
+}
+.image1 {
+  width: 300px;
+  height: 300px;
+  padding: 38px 26px 38px 26px;
+  border-radius: 20px;
+}
+.o {
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+.harvard {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circle {
+  width: Fixed (50px);
+  height: Fixed (50px);
+  padding: 10px;
+  border-radius: 50px;
+
+  background-color: #f2f2f2;
+  margin-left: 50px;
+  text-align: center;
+}
+.g {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.our-des {
+  padding-left: 55px;
+}

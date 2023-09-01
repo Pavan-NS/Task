@@ -1,0 +1,105 @@
+.book-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  padding: 20px;
+}
+.arrival-dep {
+  display: flex;
+
+  align-items: center;
+}
+.in-section {
+  width: Fill (175.1px);
+  height: Hug (85.37px);
+  gap: 5.836576461791992px;
+}
+.input {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.5836576223373413px;
+  margin-right: 5px;
+  color: black;
+  padding: 5px;
+  background-color: #ebebeb;
+  border: none;
+}
+.btn-section {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.input2 {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.5836576223373413px;
+  text-align: center;
+  background-color: #ebebeb;
+  border: none;
+}
+.btns {
+  background-color: #ebebeb;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+}
+.book-btn {
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.book-heading {
+  font-family: "Roboto";
+  font-size: 33px;
+  font-weight: bold;
+  color: #000;
+}
+.book-para {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.5836576223373413px;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  .book-card {
+    padding: 10px;
+    max-width: 300px;
+  }
+  .book-heading {
+    font-size: 23px;
+  }
+  .book-card1 {
+    order: 2;
+  }
+  .book-card2 {
+    order: 1;
+  }
+  .book-para {
+    font-size: 13px;
+  }
+  .input {
+    width: 110px;
+  }
+  .input2 {
+    width: 80px;
+  }
+}
+.book-card1 {
+  width: 50%;
+}
+.book-card2 {
+  width: 50%;
+}
